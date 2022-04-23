@@ -51,7 +51,9 @@ main {
     margin: 0.5rem;
     font-size: 2.5rem;
 }
-
+label,input{
+    font-size: large;
+}
 
 input,
 button {
@@ -74,7 +76,7 @@ button {
     color: white;
     font-family: "gotham";
     cursor: pointer;
-
+    font-size: large;
 
 }
 
@@ -130,7 +132,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
-        height: 100vh;
+        height:100vh;
     }
 
     img {
