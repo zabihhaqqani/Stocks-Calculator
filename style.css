@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "gotham";
+    font-family: 'Gotham',
+        sans-serif;
     font-weight: bold;
 
 }
@@ -51,7 +52,9 @@ main {
     margin: 0.5rem;
     font-size: 2.5rem;
 }
-label,input{
+
+label,
+input {
     font-size: large;
 }
 
@@ -132,17 +135,18 @@ button:hover {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
-        height:100vh;
+        height: 100vh;
     }
 
     img {
         height: 0px;
         width: 0px;
     }
-.container-right>div {
-   
-    font-size: 1.5rem;
-}
+
+    .container-right>div {
+
+        font-size: 1.5rem;
+    }
 
     .container-right {
         padding-top: 0;
