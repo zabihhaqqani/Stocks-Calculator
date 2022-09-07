@@ -16,7 +16,13 @@ function submitHandler() {
         outputMsg.style.color = "gray"
 
         outputMsg.innerText = `Enter all the fields!!!!!!`
-    } else {
+    }
+    else if (initialPrice.value <=0  || quantity.value <=0  || currentPrice.value <=0 ){
+        outputMsg.innerText = `Enter proper valules in the fields!!!!!!`
+    }
+    
+    
+    else {
         calculateProfitAndLoss(ip, qty, cp)
     }
 }
